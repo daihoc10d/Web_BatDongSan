@@ -10,7 +10,6 @@ namespace Web_BatDongSan.Models
     public partial class ImagesHouse
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int IDImagesHouse { get; set; }
 
         [Required]

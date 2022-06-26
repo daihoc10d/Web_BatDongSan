@@ -10,7 +10,6 @@ namespace Web_BatDongSan.Models
     public partial class ImagesDuAn
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int IDImagesDuAn { get; set; }
 
         public int IDDuAn { get; set; }

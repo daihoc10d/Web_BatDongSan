@@ -16,7 +16,6 @@ namespace Web_BatDongSan.Models
         }
 
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int IDInvestor { get; set; }
 
         [Required]

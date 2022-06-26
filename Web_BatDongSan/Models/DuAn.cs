@@ -17,7 +17,6 @@ namespace Web_BatDongSan.Models
         }
 
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int IDDuAn { get; set; }
 
         public int Block { get; set; }

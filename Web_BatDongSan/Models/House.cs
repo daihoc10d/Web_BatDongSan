@@ -16,7 +16,6 @@ namespace Web_BatDongSan.Models
         }
 
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int IDHouse { get; set; }
 
         [Required]
